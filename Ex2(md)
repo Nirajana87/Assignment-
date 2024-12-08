@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+  int a,b,sum;
+  printf("enter a and b value",a,b);
+  scanf("%d %d",a,b);
+  sum=a+b;
+  sum%=10;
+  if(sum%2==0) 
+{
+  printf("it's a even number");
+}else if(sum%2==1){
+    printf("it's a odd number");}
+    else{
+      printf("invalid input");
+      }
