@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+float basic salary,hra ,da,gross salary;
+printf("enter the basic salary:");
+scanf("%d",& basic salary);
+  if(basic salary<15,000){
+    hra=basic salary*0.10;
+    ba=basic salary*0.90;}
+  else {
+    hra = 500rs;
+    da= basic salary*0.98;
+    }
+  gross salary=basic salary+hra+da;
+  printf("\n basic salary: rs %2\n", basic salary);
+  printf("hra:rs %2f\n",hra);
+  printf("da:rs %2f \n",da);
+  printf("gross salary:rs %2f \n",gross salary);
+  }
+    
