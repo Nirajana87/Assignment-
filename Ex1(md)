@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+  int a,b,c,d,total;
+  scanf("%d",&a);
+  scanf("%d",&b);
+  scanf("%d",&c);
+  scanf("%d",&d);
+  a=a*24*60*60;
+  b=b*60*60;
+  c=c*60;
+  total=a+b+c;
+  printf("%d",total);
+  }
