@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+  int num, first digit,last digit;
+  printf("enter a number:");
+  scanf("%d",&num);
+  first digit=num;
+  while (first digit>=10)
+ { 
+    first digit=num/10;
+    }
+  last digit=num%10;
+  int product=first digit*last digit;
+  printf("product of first and last digit:%d\n",product);
+  return 0;
+  }
