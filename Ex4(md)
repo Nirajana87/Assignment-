@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+  int arr[100];
+  int i,j,n,tmp;
+  printf("input the size of array:");
+  scanf("%d",&n);
+  printf("input %d element in the array:\n",n);
+  for(i=0;i<n;i++)
+ {
+  printf("element-%d:",i);
+  scanf("%d",&arr1[i]);
+ } 
+  for(i=0;i<n;j++){
+    for(j=i+1;j<n;j++){
+      if(arr[j]<arr1[i])
+        {
+        tmp=arr1[i];
+        arr1[i]=arr1[j];
+        arr1[j]=tmp;
+        }
+      }
+    }
+      
